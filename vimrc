@@ -28,6 +28,9 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'ascenator/L9', {'name': 'newL9'}
 " Solarized plugin
 Plugin 'Solarized'
+" Airline plugin
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -48,7 +51,7 @@ filetype plugin indent on    " required
 
 syntax enable
 
-set number
+set relativenumber
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -56,7 +59,8 @@ set noexpandtab
 set colorcolumn=110
 set showcmd				" show command entered
 set ruler				" show ruler, ie cursor position
-
+set laststatus=2
+set encoding=utf-8
 
 " Solarized
 set background=dark
