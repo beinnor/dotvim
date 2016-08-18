@@ -7,6 +7,10 @@ Create symlinks:
 	ln -s ~/.vim/vimrc ~/.vimrc
 	ln -s ~/.vim/gvimrc ~/.gvimrc
 
+Or, for minimal vim config:
+
+	ln -s ~/.vim/vimrc_minimal  ~/.vimrc
+
 Switch to the '~/.vim' directory, and fetch submodules
 
 	cd ~/.vim
